@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+# [Telegram GoTo⚡️](https://tgo.to)
+**When t.me/ doesn't work - tgo.to/ works**
 
-You can use the [editor on GitHub](https://github.com/Heart909/Heart909.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# About
+English - [tgo.to/aboutENG](https://tgo.to/about?lang=eng)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Русский - [tgo.to/aboutRU](https://tgo.to/about?lang=ru)
 
-### Markdown
+# Список изменений
+v1. Запуск приложения. Работает генерация ссылок на каналы чаты и пользователей.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+v1.1 Реализована работа с конктретной ссылкой на пост в канале. Исправлены баги. Новый не добавлены, я же не даун, возьмите меня на работу.
 
-```markdown
-Syntax highlighted code block
+v1.2 Добавлен выбор языка eng(default) или ru. страницу about можно форсить через параметр ?lang=ru/eng
 
-# Header 1
-## Header 2
-### Header 3
+v1.3 Сделал более менее приличную кнопку "получить ссылку"(слизал с телеграма лол)
 
-- Bulleted
-- List
+v1.3.1 Уже передумал, зеленый выглядит убого, сохраняем строгость.
 
-1. Numbered
-2. List
+v1.4 Добавлена работа с ссылкой на приватный чат. Баги вроде не добавил.
 
-**Bold** and _Italic_ and `Code` text
+v1.4.1 Все таки добавил один, сразу же пофиксил.
 
-[Link](url) and ![Image](src)
-```
+v1.5[current] Добавил страницу "функции" с видеоинструкциями. Сойдет.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Heart909/Heart909.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# ТуДу
+* ~~Работа с ссылками на конктретный пост на канале~~
+* ~~Приватная ссылка в телеграм канал(если это возможно)~~
+* ~~Загрузка данных о ссылке для наглядности~~(это ну сложно и не за чем)
+* Оптимизация говнокода
+* Оптимизация для старых браузеров
