@@ -1,13 +1,8 @@
-<!--
-________  ___  ________  ___  _________  ________  ___       ________  _______   ________  ___  ________  _________  ________  ________   ________  _______      
-|\   ___ \|\  \|\   ____\|\  \|\___   ___\\   __  \|\  \     |\   __  \|\  ___ \ |\   ____\|\  \|\   ____\|\___   ___\\   __  \|\   ___  \|\   ____\|\  ___ \     
-\ \  \_|\ \ \  \ \  \___|\ \  \|___ \  \_\ \  \|\  \ \  \    \ \  \|\  \ \   __/|\ \  \___|\ \  \ \  \___|\|___ \  \_\ \  \|\  \ \  \\ \  \ \  \___|\ \   __/|    
- \ \  \ \\ \ \  \ \  \  __\ \  \   \ \  \ \ \   __  \ \  \    \ \   _  _\ \  \_|/_\ \_____  \ \  \ \_____  \   \ \  \ \ \   __  \ \  \\ \  \ \  \    \ \  \_|/__  
-  \ \  \_\\ \ \  \ \  \|\  \ \  \   \ \  \ \ \  \ \  \ \  \____\ \  \\  \\ \  \_|\ \|____|\  \ \  \|____|\  \   \ \  \ \ \  \ \  \ \  \\ \  \ \  \____\ \  \_|\ \ 
-   \ \_______\ \__\ \_______\ \__\   \ \__\ \ \__\ \__\ \_______\ \__\\ _\\ \_______\____\_\  \ \__\____\_\  \   \ \__\ \ \__\ \__\ \__\\ \__\ \_______\ \_______\
-    \|_______|\|__|\|_______|\|__|    \|__|  \|__|\|__|\|_______|\|__|\|__|\|_______|\_________\|__|\_________\   \|__|  \|__|\|__|\|__| \|__|\|_______|\|_______|
-                                                                                    \|_________|   \|_________|                                                   
--->       
+<!-- 
+	Developer - Khasanov A.
+	Resource - rfpanda.ga
+	Copyright © 2019 
+ -->      
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,7 +22,7 @@ ________  ___  ________  ___  _________  ________  ___       ________  _______  
     <meta name="description" content="Рабочая телеграм ссылка">
     <meta name="msapplication-TileColor" content="#1e96c8">
     <meta name="theme-color" content="#1e96c8">
-    <title>Telegram GoTo⚡️</title>
+    <title>Telegram Redirect 🐼</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111537010-2"></script>
     <script>
@@ -118,16 +113,16 @@ ________  ___  ________  ___  _________  ________  ___       ________  _______  
         if (getCookie('lang') == 'eng') {
             document.getElementsByClassName("input__label-content")[0].innerHTML = "Enter link <span class='notValid_not'>t.me/</span> or <span class='notValid_not'>@username</span>";
             document.getElementsByClassName("btn_getLink")[0].innerHTML = "Get link";
-            document.getElementsByClassName("sayHello")[0].innerHTML = "Want to learn more";
-            document.getElementsByClassName("btn_goTestLink")[0].innerHTML = "open";
-            document.getElementsByClassName("btn_changeLang")[0].innerHTML = "ru";
+            document.getElementsByClassName("sayHello")[0].innerHTML = "Developer:";
+            document.getElementsByClassName("btn_goTestLink")[0].innerHTML = "Open";
+            document.getElementsByClassName("btn_changeLang")[0].innerHTML = "Ru";
         }
         if (getCookie('lang') == 'ru') {
             document.getElementsByClassName("input__label-content")[0].innerHTML = "Укажите ссылку <span class='notValid_not'>t.me/</span> или <span class='notValid_not'>@username</span>";
             document.getElementsByClassName("btn_getLink")[0].innerHTML = "Получить ссылку";
-            document.getElementsByClassName("sayHello")[0].innerHTML = "Хочешь узнать подробнее";
-            document.getElementsByClassName("btn_goTestLink")[0].innerHTML = "открыть";
-            document.getElementsByClassName("btn_changeLang")[0].innerHTML = "eng";
+            document.getElementsByClassName("sayHello")[0].innerHTML = "Разработчик:";
+            document.getElementsByClassName("btn_goTestLink")[0].innerHTML = "Открыть";
+            document.getElementsByClassName("btn_changeLang")[0].innerHTML = "Eng";
         }
     });
     
@@ -442,10 +437,10 @@ ________  ___  ________  ___  _________  ________  ___       ________  _______  
         }
         .btn_goTestLink {
             position: absolute;
-            padding: 8px;
+            padding: 10px;
             display: none;
             font-size: 12px;
-            right: 25px;
+            right: 29px;
             z-index: 9999999999;
             opacity: 0;
             cursor: pointer; 
